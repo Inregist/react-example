@@ -1,17 +1,1 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
 
-body {
-  font-family: "Raleway", sans-serif;
-}
-
-button:focus {
-  outline: none;
-}
-
-.service-card {
-  width: 20rem;
-  height: 14rem;
-  @media (min width: 640) {
-    width: 100%;
-  }
-}

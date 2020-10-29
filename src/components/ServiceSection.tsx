@@ -51,7 +51,7 @@ const ServiceSection = () => {
       </div>
       <div className="flex flex-wrap items-center justify-center mt-20 px-20">
         {services.map((s) => (
-          <ServiceCard service={s} />
+          <ServiceCard key={s.name} service={s} />
         ))}
       </div>
     </div>
