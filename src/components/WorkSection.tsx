@@ -45,7 +45,7 @@ const WorkImages = ({ selection }) => {
   useEffect(() => {
     const getImgUrl = async () => {
       const res = await fetch(
-        "https://api.unsplash.com/photos/random/?count=8&orientation=landscape&client_id=fmusq6nhYtxUzNxKF1c-lmBplfDHirQU_V7DSzuNA1g&query=" +
+        "https://api.unsplash.com/photos/random/?count=8&orientation=landscape&client_id=tpK1vbxOxCPIup5H8jD10pXoxlXEX9K23AXj9VfLcEg&query=" +
           selection
       );
       setImages(await res.json());
