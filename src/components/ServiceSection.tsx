@@ -2,6 +2,6 @@ import React from 'react'
 
 const ServiceSection = ()=>{
 
-  return <div>Section</div>
+  return <div className="">Section</div>
 }
 export default ServiceSection;

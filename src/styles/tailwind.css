@@ -10499,6 +10499,10 @@ video {
   height: 100vh;
 }
 
+.h-screen-40 {
+  height: 40vh;
+}
+
 .text-xs {
   font-size: 0.75rem;
 }
@@ -15968,6 +15972,10 @@ video {
   letter-spacing: 0.1em;
 }
 
+.tracking-super-wide {
+  letter-spacing: 0.5em;
+}
+
 .select-none {
   -webkit-user-select: none;
           user-select: none;
@@ -19198,6 +19206,12 @@ video {
 
 .animate-bounce {
   animation: bounce 1s infinite;
+}
+
+.main-bg{
+  background-image: url("/src/assets/dev_background.jpg");
+  background-size: cover;
+  background-position: center top;
 }
 
 @media (min-width: 640px) {
@@ -29123,6 +29137,10 @@ video {
     height: 100vh;
   }
 
+  .sm\:h-screen-40 {
+    height: 40vh;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
   }
@@ -34590,6 +34608,10 @@ video {
 
   .sm\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .sm\:tracking-super-wide {
+    letter-spacing: 0.5em;
   }
 
   .sm\:select-none {
@@ -47717,6 +47739,10 @@ video {
     height: 100vh;
   }
 
+  .md\:h-screen-40 {
+    height: 40vh;
+  }
+
   .md\:text-xs {
     font-size: 0.75rem;
   }
@@ -53184,6 +53210,10 @@ video {
 
   .md\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .md\:tracking-super-wide {
+    letter-spacing: 0.5em;
   }
 
   .md\:select-none {
@@ -66311,6 +66341,10 @@ video {
     height: 100vh;
   }
 
+  .lg\:h-screen-40 {
+    height: 40vh;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
   }
@@ -71778,6 +71812,10 @@ video {
 
   .lg\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .lg\:tracking-super-wide {
+    letter-spacing: 0.5em;
   }
 
   .lg\:select-none {
@@ -84905,6 +84943,10 @@ video {
     height: 100vh;
   }
 
+  .xl\:h-screen-40 {
+    height: 40vh;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
   }
@@ -90372,6 +90414,10 @@ video {
 
   .xl\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+
+  .xl\:tracking-super-wide {
+    letter-spacing: 0.5em;
   }
 
   .xl\:select-none {

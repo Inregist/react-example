@@ -5,8 +5,15 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        "screen-40": "40vh",
+      },
+      letterSpacing: {
+        "super-wide": "0.5em",
+      },
+    },
   },
   variants: {},
   plugins: [],
-}
+};

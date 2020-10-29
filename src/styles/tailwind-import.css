@@ -3,3 +3,9 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.main-bg{
+  background-image: url("/src/assets/dev_background.jpg");
+  background-size: cover;
+  background-position: center top;
+}

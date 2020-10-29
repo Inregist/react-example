@@ -1,5 +1,9 @@
-.main-bg{
-  background-image: url("/src/assets/dev_background.jpg");
-  background-size: cover;
-  background-position: center top;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+button:focus{
+  outline: none;
 }

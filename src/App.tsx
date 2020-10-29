@@ -1,11 +1,14 @@
 import React from "react";
 import "./styles/tailwind.css";
 import "./styles/style.css";
+import Banner from "./components/Banner";
 
 function App() {
-  return <div>
-    <div className="h-screen main-bg"></div>
-  </div>;
+  return (
+    <>
+      <Banner />
+    </>
+  );
 }
 
 export default App;
