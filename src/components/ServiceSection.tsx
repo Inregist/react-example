@@ -45,8 +45,8 @@ const ServiceSection = () => {
   ];
 
   return (
-    <div className="py-24 text-2xl text-center">
-      <div className="tracking-widest font-semibold text-gray-700">
+    <div className="py-24">
+      <div className="tracking-widest font-semibold text-2xl text-center text-gray-700">
         SERVICES
       </div>
       <div className="flex flex-wrap items-center justify-center mt-20 px-20">

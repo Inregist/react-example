@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        "screen-40": "40vh",
+        "screen-50": "50vh",
       },
       letterSpacing: {
         "super-wide": "0.5em",
